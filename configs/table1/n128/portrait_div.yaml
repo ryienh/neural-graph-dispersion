@@ -1,0 +1,25 @@
+# Table 1, N=128, portrait divergence.
+
+n_vertices: 128
+k_select: 100
+metrics: [portrait_div]
+
+num_ensembles: 33
+hidden_dim: 384
+num_hidden: 4
+latent_dim: 16
+
+batch_size: 50
+num_iterations: 5000
+learning_rate: 0.00023995817958282425
+num_samples_ste: 25
+gamma: 0.2
+epsilon: 0.001
+training_budget: 10000
+
+features: [spectral_spread, triangle_density, adj_m2_norm]
+projection_dim: 4
+direction_seed: 1964
+
+sampling_budget: 100000
+n_top_matrices: 2111

@@ -1,0 +1,8 @@
+__pycache__/
+*.egg-info/
+.venv/
+results/
+
+# ORCA is GPL-3.0 and not distributed with this repository; see README.
+ngd/metrics/orca/*
+!ngd/metrics/orca/.gitkeep

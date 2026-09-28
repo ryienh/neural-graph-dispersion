@@ -1,0 +1,25 @@
+# Table 1, N=16, NetLSD wave.
+
+n_vertices: 16
+k_select: 100
+metrics: [netlsd_wave]
+
+num_ensembles: 51
+hidden_dim: 256
+num_hidden: 6
+latent_dim: 16
+
+batch_size: 50
+num_iterations: 5000
+learning_rate: 0.0001
+num_samples_ste: 25
+gamma: 0.2
+epsilon: 0.001
+training_budget: 10000
+
+features: [regularity_proxy, clustering_proxy, adj_m3_norm, adj_m2_norm]
+projection_dim: 3
+direction_seed: 8049
+
+sampling_budget: 100000
+n_top_matrices: 951
